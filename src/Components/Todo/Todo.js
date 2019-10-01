@@ -42,10 +42,7 @@ class Todo extends Component {
               placeholder="Add task..."
               onChange={this.handleChange}
             ></input>
-            <button
-              className="add__button"
-              onClick={() => this.addToList(this.state.input)}
-            >
+            <button className="add__button" onClick={this.addToList}>
               +
             </button>
           </div>
